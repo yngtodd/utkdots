@@ -24,6 +24,11 @@ export PATH=$HOME/opt/nvim-linux64/bin:$PATH
 
 alias vim="nvim"
 
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
+
 # LSD
 alias ls='lsd'
 alias l='ls -l'
