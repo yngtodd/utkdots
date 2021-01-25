@@ -3,6 +3,10 @@
 # User: Todd Young
 # Github: yngtodd
 
+if [ -f /etc/zshrc ]; then
+. /etc/zshrc
+fi
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/usr/share/zsh/5.0.2/functions
