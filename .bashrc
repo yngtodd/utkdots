@@ -2,8 +2,10 @@
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+    /etc/bashrc
 fi
+
+export PS1="{\[\e[33m\]\u\[\e[m\]@\[\e[37m\]\h\[\e[m\]:\W}$ "
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
