@@ -41,6 +41,7 @@ alias lt='ls --tree'
 # Git
 alias gl='git log --oneline --decorate --all --graph'
 alias gpsu='git push --set-upstream origin'
+alias gp='git push'
 
 # Paths
 alias 512="cd /lustre/haven/proj/UTK0150"
@@ -53,10 +54,13 @@ SCRIPTS="$HOME/src/bash"
 
 source $SCRIPTS/mkcd.sh
 source $SCRIPTS/env.sh
+source $SCRIPTS/modules.sh
 
 # Anaconda
 # --------
 module load anaconda3
 source /sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/etc/profile.d/conda.sh
+
+PYENV=/lustre/haven/proj/UTK0150/yngtodd/env/py
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
